@@ -1,0 +1,225 @@
+/* Style Sheet by amupammondal.in */
+@media (min-width: 768px)
+{
+  .navbar-nav {
+      margin: 0 auto;
+      width: fit-content;
+      float: none;
+  }
+}
+.navbar-toggle .icon-bar {
+    background-color: #1b743a;
+}
+.navbar {
+    /* background-color: #0e6936; */
+    border-radius: 0px;
+}
+a {
+    color: #15703a;
+    /* color: #fff; */
+    text-decoration: none;
+}
+.txt-heading {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+hr.hr-half {
+    width: 40%;
+    transition: 1s;
+}
+.welcome-block:hover hr.hr-half {
+    width: 80%;
+}
+.txt-fff {
+    color: #fff;
+}
+section#welcome {
+    padding: 60px 0px;
+}
+.welcome-block {
+    background-image: url(https://images.pexels.com/photos/302083/pexels-photo-302083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+.welcome-block-inner {
+    background-color: #062d73c2;
+    padding: 30px;
+    border: #fff solid 1px;
+    box-shadow: #fff 0px 0px 20px;
+    border-radius: 8px;
+    transition: 1.5s;
+}
+.welcome-block-inner p {
+    font-size: 15px;
+}
+.welcome-block-inner:hover {
+    background-color: #00750fc9;
+}
+a.know-more {
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+    color: #0f6936;
+    border: #0f6937 solid 1px;
+    border-radius: 25px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: 1.5s;
+}
+a.know-more:hover {
+    background-color: #0f6936;
+    color: #ffffff;
+    border: #0f6937 solid 1px;
+}
+.carousel-caption {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #128211b0;
+    margin-bottom: 25px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.item img {
+    filter: grayscale(100%);
+    transition: 2s;
+}
+.carousel:hover div.item img {
+    filter: grayscale(0%);
+}
+.item img.client-img {
+    background-color: #fff;
+    box-shadow: #909090 0px 0px 15px;
+    border-radius: 5px;
+    width: 20%;
+    float: left;
+    margin: 2.5%;
+    padding: 2% 3%;
+    filter: grayscale(0%);
+}
+@media only screen and (max-width: 767px) {
+  .item img.client-img {
+      width: 45%;
+  }
+}
+.txt-green {
+  color: #0f6936;
+}
+p.txt-p {
+  margin: 0 0 0px;
+}
+.about-card {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    box-shadow: #656565 0px 0px 20px;
+}
+.about-card img {
+    filter: grayscale(0%);
+    transition: 1s;
+}
+.card-bottom {
+    bottom: 15px;
+    width: 100%;
+    background: #fff;
+    padding: 15px 20px;
+}
+.card-bottom p, .card-bottom h4 {
+    color: #000000;
+}
+.about-card:hover img {
+    filter: grayscale(100%);
+}
+section#associates {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #909090;
+    /* background-image: url(https://images.pexels.com/photos/533930/pexels-photo-533930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    background-image: url(https://images.pexels.com/photos/443356/pexels-photo-443356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#podcast {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #909090;
+    background-image: url(https://images.pexels.com/photos/136350/pexels-photo-136350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    /* background-image: url(https://images.pexels.com/photos/50721/pencils-crayons-colourful-rainbow-50721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#associates h2, section#podcast h2 {
+    font-size: 4em;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 60px;
+    text-shadow: 0px 0px 10px #ffffff;
+}
+@media only screen and (max-width: 425px) {
+    section#associates h2 {
+        font-size: 2em;
+    }
+}
+.team-card img {
+    cursor: pointer;
+    filter: grayscale(60%);
+    transition: 1.5s;
+}
+.team-card:hover img {
+    filter: grayscale(0%);
+}
+.team-image {
+    box-shadow: #a7a7a7 0px 0px 20px;
+    border-radius: 3px;
+    margin: 20px;
+}
+.team-image h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+.team-card p {
+    margin: 20px;
+}
+h2.txt-h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /* background-color: #3F51B5; */
+}
+footer p, footer p a {
+    color: #167ac6;
+    text-decoration: none;
+}
+footer p a:hover {
+  color: #167ac6;
+  text-decoration: none;
+}
+.card-bottom i.fa {
+    color: #4CAF50;
+}
+.video-block iframe {
+    border: #fff solid 10px;
+    border-radius: 3px;
+    box-shadow: #000 0px 0px 10px;
+    margin-bottom: 40px;
+}
